@@ -1,0 +1,45 @@
+<!-- cadastro.html corrigido -->
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Aluno</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="login-container">
+        <div class="login-box">
+            <h1>Cadastro</h1>
+            <p>Crie sua conta</p>
+
+            <input 
+                type="text" 
+                id="novoUsuario" 
+                placeholder="Novo usuário"
+            >
+
+            <input 
+                type="password" 
+                id="novaSenha" 
+                placeholder="Nova senha"
+            >
+
+            <button onclick="cadastrarUsuario()">
+                Cadastrar
+            </button>
+
+            <p>
+                Já tem conta?
+                <a href="login.html">Fazer login</a>
+            </p>
+
+            <p id="mensagem"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

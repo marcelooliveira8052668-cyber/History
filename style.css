@@ -1,0 +1,163 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* BODY */
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  line-height: 1.6;
+  background: white;
+  color: white;
+  padding: 20px;
+}
+
+/* HEADER */
+header {
+  background: blue;
+  color: white;
+  padding: 25px;
+  text-align: center;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+header h1 {
+  font-size: 28px;
+}
+
+/* TITULOS */
+h3 {
+  margin-top: 30px;
+  margin-bottom: 15px;
+  color: #1e3c72;
+  border-left: 5px solid #2a5298;
+  padding-left: 10px;
+}
+
+/* PARÁGRAFOS */
+p {
+  margin-bottom: 15px;
+  text-align: justify;
+  font-size: 15px;
+}
+
+/* IMAGENS */
+img {
+  display: block;
+  margin: 15px auto;
+  max-width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+}
+
+/* SEÇÕES (efeito tipo card) */
+section {
+  background: white;
+  padding: 20px;
+  margin-bottom: 25px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+/* FOOTER */
+footer {
+  margin-top: 40px;
+  background: #1e3c72;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  border-radius: 10px;
+  font-size: 14px;
+}
+
+/* RESPONSIVO */
+@media (max-width: 600px) {
+  body {
+    padding: 10px;
+  }
+
+  header h1 {
+    font-size: 22px;
+  }
+
+  h3 {
+    font-size: 18px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+}
+
+/* style.css */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #4a90e2, #357abd);
+}
+
+.login-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-box {
+    background: white;
+    width: 350px;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+    text-align: center;
+}
+
+.login-box h1 {
+    color: #357abd;
+    margin-bottom: 10px;
+}
+
+.login-box p {
+    margin-bottom: 20px;
+    color: #555;
+}
+
+.login-box input {
+    width: 100%;
+    padding: 14px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 15px;
+}
+
+.login-box button {
+    width: 100%;
+    padding: 14px;
+    border: none;
+    background: #357abd;
+    color: white;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.login-box button:hover {
+    background: #2a5f94;
+}
+
+#mensagem {
+    margin-top: 15px;
+    font-weight: bold;
+    color: red;
+}

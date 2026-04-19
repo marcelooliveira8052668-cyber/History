@@ -1,0 +1,45 @@
+<!-- login.html corrigido -->
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Portal de História</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="login-container">
+        <div class="login-box">
+            <h1>Portal de História</h1>
+            <p>Prof. Marcelo Oliveira</p>
+
+            <input 
+                type="text" 
+                id="usuario" 
+                placeholder="Digite seu usuário"
+            >
+
+            <input 
+                type="password" 
+                id="senha" 
+                placeholder="Digite sua senha"
+            >
+
+            <button onclick="fazerLogin()">
+                Entrar
+            </button>
+
+            <p>
+                Não tem conta?
+                <a href="cadastro.html">Cadastrar</a>
+            </p>
+
+            <p id="mensagem"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
