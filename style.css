@@ -5,159 +5,101 @@
   box-sizing: border-box;
 }
 
-/* BODY */
+/* CORPO DO SITE */
 body {
-  font-family: 'Segoe UI', Arial, sans-serif;
-  line-height: 1.6;
-  background: white;
-  color: white;
+  font-family: Arial, sans-serif;
+  background: #ffffff; /* fundo branco */
+  color: #222;
+  line-height: 1.8;
   padding: 20px;
 }
 
-/* HEADER */
+/* CABEÇALHO */
 header {
-  background: blue;
-  color: white;
-  padding: 25px;
   text-align: center;
-  border-radius: 10px;
+  padding: 30px 20px;
   margin-bottom: 30px;
-  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+  border-bottom: 2px solid #dcdcdc;
 }
 
 header h1 {
-  font-size: 28px;
+  font-size: 2.2rem;
+  color: #222;
+  font-weight: bold;
+  letter-spacing: 1px;
 }
 
-/* TITULOS */
+/* TÍTULOS */
 h3 {
-  margin-top: 30px;
-  margin-bottom: 15px;
-  color: #1e3c72;
-  border-left: 5px solid #2a5298;
-  padding-left: 10px;
+  font-size: 1.6rem;
+  color: #111;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  padding-left: 12px;
+  border-left: 5px solid #444;
+  background: #f8f8f8;
+  padding: 10px 15px;
+  border-radius: 8px;
 }
 
 /* PARÁGRAFOS */
 p {
-  margin-bottom: 15px;
+  font-size: 1.05rem;
   text-align: justify;
-  font-size: 15px;
+  margin-bottom: 20px;
+  background: #fcfcfc;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
 }
 
 /* IMAGENS */
 img {
   display: block;
-  margin: 15px auto;
+  margin: 20px auto;
   max-width: 100%;
-  border-radius: 10px;
-  box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+  width: 500px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.10);
 }
 
-/* SEÇÕES (efeito tipo card) */
-section {
-  background: white;
-  padding: 20px;
-  margin-bottom: 25px;
-  border-radius: 10px;
-  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+/* TEXTO EM DESTAQUE */
+em {
+  font-style: italic;
+  font-weight: bold;
+  color: #000;
 }
 
-/* FOOTER */
+/* RODAPÉ */
 footer {
-  margin-top: 40px;
-  background: #1e3c72;
-  color: white;
   text-align: center;
-  padding: 15px;
-  border-radius: 10px;
-  font-size: 14px;
+  margin-top: 50px;
+  padding: 20px;
+  border-top: 2px solid #dcdcdc;
+  font-size: 0.95rem;
+  color: #555;
 }
 
-/* RESPONSIVO */
-@media (max-width: 600px) {
+/* RESPONSIVO PARA CELULAR */
+@media (max-width: 768px) {
   body {
-    padding: 10px;
+    padding: 15px;
   }
 
   header h1 {
-    font-size: 22px;
+    font-size: 1.8rem;
   }
 
   h3 {
-    font-size: 18px;
+    font-size: 1.3rem;
   }
 
   p {
-    font-size: 14px;
+    font-size: 1rem;
+    padding: 15px;
   }
-}
 
-/* style.css */
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    font-family: Arial, sans-serif;
-    background: linear-gradient(135deg, #4a90e2, #357abd);
-}
-
-.login-container {
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.login-box {
-    background: white;
-    width: 350px;
-    padding: 40px;
-    border-radius: 15px;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
-    text-align: center;
-}
-
-.login-box h1 {
-    color: #357abd;
-    margin-bottom: 10px;
-}
-
-.login-box p {
-    margin-bottom: 20px;
-    color: #555;
-}
-
-.login-box input {
+  img {
     width: 100%;
-    padding: 14px;
-    margin-bottom: 15px;
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    font-size: 15px;
-}
-
-.login-box button {
-    width: 100%;
-    padding: 14px;
-    border: none;
-    background: #357abd;
-    color: white;
-    font-size: 16px;
-    border-radius: 8px;
-    cursor: pointer;
-}
-
-.login-box button:hover {
-    background: #2a5f94;
-}
-
-#mensagem {
-    margin-top: 15px;
-    font-weight: bold;
-    color: red;
+  }
 }
