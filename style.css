@@ -1,1 +1,88 @@
 
+/* RESET BÁSICO */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* CORPO DO SITE */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f8;
+    color: #222;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* CABEÇALHO */
+header {
+    background-color: #0d3b66;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+    border-radius: 12px;
+    margin-bottom: 30px;
+}
+
+/* TÍTULO PRINCIPAL EM NEGRITO */
+header h1 {
+    font-size: 2.2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* TEXTO NORMAL */
+header p {
+    font-size: 1.2rem;
+    font-weight: normal;
+}
+
+/* SUMÁRIO */
+.sumario {
+    background-color: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+    margin-bottom: 30px;
+}
+
+/* TÍTULO DO SUMÁRIO */
+.sumario h2 {
+    font-size: 1.6rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #0d3b66;
+}
+
+/* LISTA */
+.sumario ul {
+    list-style: none;
+}
+
+/* ITENS */
+.sumario li {
+    margin-bottom: 10px;
+}
+
+/* LINKS */
+.sumario a {
+    text-decoration: none;
+    color: #1d3557;
+    font-weight: normal;
+    transition: 0.3s;
+}
+
+.sumario a:hover {
+    color: #e63946;
+    padding-left: 5px;
+}
+
+/* SITE EM CONSTRUÇÃO */
+h3 {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #c1121f;
+    margin-top: 20px;
+}
