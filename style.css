@@ -144,31 +144,3 @@ hr {
   border: none;
   border-top: 1px solid #ddd;
 }
-
-/* RESPONSIVO */
-@media (max-width: 768px) {
-  body {
-    font-size: 16px;
-  }
-
-  header h1 {
-    font-size: 1.8rem;
-  }
-
-  h1 {
-    font-size: 1.6rem;
-  }
-
-  h2 {
-    font-size: 1.4rem;
-  }
-
-  h3 {
-    font-size: 1.2rem;
-  }
-
-  nav a {
-    display: block;
-    margin: 10px 0;
-  }
-}
